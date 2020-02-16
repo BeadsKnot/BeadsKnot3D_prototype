@@ -1,7 +1,7 @@
 class SurfaceKnot {
-  ArrayList<Knot> surfaceKnot;
+  ArrayList<Knot> section;
   
   SurfaceKnot(){
-    surfaceKnot = new ArrayList<Knot>();
+    section = new ArrayList<Knot>();
   }
 };

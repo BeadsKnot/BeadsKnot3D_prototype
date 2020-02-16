@@ -1,5 +1,6 @@
 class Bead{
   float X, Y;
+  float Theta;
   int ID;
   Bead N1,N2,U1,U2;
   boolean Joint;
