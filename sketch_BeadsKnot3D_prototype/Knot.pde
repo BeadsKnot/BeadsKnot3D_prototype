@@ -6,7 +6,7 @@ class Knot {
     beads = new ArrayList<Bead>();
   }
 
-  void CreateEdgeBtEndbeads(Bead b1, Bead b2, int R) {
+  void CreateEdgeByEndbeads(Bead b1, Bead b2, int R) {
     float distance = dist(b1.X, b1.Y, b2.X, b2.Y) *0.4f;
     float x1 = b1.X;
     float y1 = b1.Y;
@@ -44,7 +44,7 @@ class Knot {
     return;
   }
 
-  void CreateEdgeBtEndbeads(Bead b1, int R1, Bead b2, int R2) {
+  void CreateEdgeByEndbeads(Bead b1, int R1, Bead b2, int R2) {
     float distance = dist(b1.X, b1.Y, b2.X, b2.Y) *0.3f;
     float x1 = b1.X;
     float y1 = b1.Y;
